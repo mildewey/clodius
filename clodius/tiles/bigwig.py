@@ -59,6 +59,7 @@ def natcmp(x, y):
     if y == 'chrM':
         return -1
 
+    print('x_parts %s :: y_parts %s' % (x_parts, y_parts))
     if x_parts < y_parts:
         return -1
     elif y_parts > x_parts:
